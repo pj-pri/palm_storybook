@@ -1,0 +1,32 @@
+$white: #ffffff;
+$black: #0000;
+$active-color: #222222;
+$modif-color: #cccccc; //modifile color
+$inactive-color: #aaaaaa; // inactive color
+$primary-color: #00a6cc;
+$select-color: #f33568;
+$red-color: #e82121;
+$dark-grey: #292f36;
+$dark-grey2: #444444;
+$grey: #888888;
+$light-grey: #f8f8f8;
+$no-img-color: #d9d9d9;
+$disabled-color: #efefef;
+$shadow: 1px 4px 16px 0px rgba(0, 0, 0, 0.2509803922);
+
+:root {
+	--white: $white;
+	--black: $black;
+	--active-color: $active-color;
+	--modif-color: $modif-color; //modifile color;
+	--inactive-color: $inactive-color; // inactive color;
+	--primary-color: $primary-color;
+	--select-color: $select-color;
+	--red-color: $red-color;
+	--dark-grey: $dark-grey;
+	--dark-grey2: $dark-grey2;
+	--grey: $grey;
+	--light-grey: $light-grey;
+	--no-img-color: $no-img-color;
+	--disabled-color: $disabled-color;
+}

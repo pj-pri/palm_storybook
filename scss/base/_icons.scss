@@ -1,0 +1,208 @@
+i {
+  position: relative;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &.arrow-down::before {
+    content: url(/assets/images/down.svg);
+  }
+
+  &.primary-search::before {
+    content: url(/assets/images/primary_search_icon.svg);
+  }
+
+  &.search::before {
+    content: url(/assets/images/search_icon.svg);
+  }
+
+  &.user-drop::before {
+    content: url(/assets/images/icon_user_drop.svg);
+  }
+
+  &.ticket-drop::before {
+    content: url(/assets/images/icon_ticket_drop.svg);
+  }
+
+  &.sdcard-drop::before {
+    content: url(/assets/images/icon_sdcard_drop.svg);
+  }
+
+  &.signout-drop::before {
+    content: url(/assets/images/icon_signout_drop.svg);
+  }
+
+  &.apple-footer::before {
+    content: url(/assets/images/icon_apple_footer.svg);
+  }
+
+  &.apple-footer-primary::before {
+    content: url(/assets/images/icon_apple_footer_primary.svg);
+  }
+
+  &.window-footer::before {
+    content: url(/assets/images/icon_window_footer.svg);
+  }
+
+  &.window-footer-primary::before {
+    content: url(/assets/images/icon_window_footer_primary.svg);
+  }
+
+  &.sns-instagram::before {
+    content: url(/assets/images/icon_instagram.svg);
+  }
+
+  &.sns-youtube::before {
+    content: url(/assets/images/icon_youtube.svg);
+  }
+
+  &.kakaotalk::before {
+    content: url(/assets/images/icon_kakaotalk.svg);
+  }
+
+  &.play::before {
+    content: url(/assets/images/play_icon.svg);
+  }
+
+  &.arhive::before {
+    content: url(/assets/images/arhive_icon.svg);
+  }
+
+  &.list::before {
+    content: url(/assets/images/icon_list.svg);
+  }
+
+  &.list-plus::before {
+    content: url(/assets/images/list_plus_icon.svg);
+  }
+
+  &.square-check-box::before {
+    content: url(/assets/images/square_check.svg);
+  }
+
+  &.square-check-box-active::before {
+    content: url(/assets/images/square_checked.svg);
+  }
+
+  &.square-check-box-disabled::before {
+    content: url(/assets/images/icon_square_check_disabled.svg);
+  }
+
+  &.more-vertical::before {
+    content: url(/assets/images/more_icon.svg);
+  }
+
+  &.double-coin::before {
+    content: url(/assets/images/icon_double_coin.svg);
+  }
+
+  &.cart::before {
+    content: url(/assets/images/icon_cart.svg);
+  }
+
+  &.arrow-right::before {
+    content: url(/assets/images/pagination_arrow_icon.svg);
+  }
+
+  &.arrow-end-right::before {
+    content: url(/assets/images/pagination_arrow_icon2.svg);
+  }
+
+  &.arrow-left::before {
+    content: url(/assets/images/icon_left_arrow.svg);
+  }
+
+  &.arrow-end-left::before {
+    content: url(/assets/images/icon_left_end_arrow.svg);
+  }
+
+  &.arrow-up-primary::before {
+    content: url(/assets/images/icon_arrow_up_primary.svg);
+  }
+
+  &.play::before {
+    content: url(/assets/images/icon_play.svg);
+  }
+
+  &.circle-check-active::before {
+    content: url(/assets/images/icon_circle_checked.svg);
+  }
+
+  &.rotate::before {
+    content: url(/assets/images/icon_rotate.svg);
+  }
+
+  &.plus::before {
+    background-image: url(/assets/images/icon_plus.svg);
+  }
+
+  &.check-select::before {
+    background-image: url(/assets/images/icon_check_select.svg);
+  }
+
+  &.check-circle::before {
+    background-image: url(/assets/images/circle_check.svg);
+  }
+
+  &.pen::before {
+    background-image: url(/assets/images/icon_pen.svg);
+  }
+
+  &.delete::before {
+    background-image: url(/assets/images/x_icon.svg);
+  }
+
+  &.transfer-primary::before {
+    background-image: url(/assets/images/icon_transfer_primary.svg);
+  }
+
+  &.palm-circle-secondary::before {
+    background-image: url(/assets/images/min_logo.svg);
+  }
+
+  &.melody-squre::before {
+    background-image: url(/assets/images/melody_icon.svg);
+  }
+
+  &.orchestra-squre::before {
+    background-image: url(/assets/images/orchestra_icon.svg);
+  }
+
+  &.choir-squre::before {
+    background-image: url(/assets/images/choir_icon.svg);
+  }
+
+  &.instrument-squre::before {
+    background-image: url(/assets/images/instrument_icon.svg);
+  }
+
+  &.new-danger::before {
+    width: 2em;
+    background-image: url(/assets/images/new_logo.svg);
+  }
+
+  &.radio::before {
+    background-image: url(/assets/images/icon_radio.svg);
+  }
+
+  &.radio-checked::before {
+    background-image: url(/assets/images/icon_radio_checked.svg);
+  }
+
+  &.asterisk-select::before {
+    background-image: url(/assets/images/icon_asterisk_select.svg);
+  }
+
+  &.download::before {
+    background-image: url(/assets/images/icon_download.svg);
+  }
+}

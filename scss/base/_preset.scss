@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+html,
+body {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: $active-color;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  vertical-align: top;
+}
+button {
+  border: 0px none;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.blind {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.skip_navi {
+  position: relative;
+  z-index: 3000;
+}
+.skip_navi a {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 138px;
+  border: 1px solid #4ec53d;
+  background: #333;
+  text-align: center;
+}
+.skip_navi a:focus {
+  top: 0;
+  text-decoration: none;
+  z-index: 1000;
+  color: #ffffff;
+  padding: 10px;
+}
+
+// container
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+
+  &[data-size="sm"] {
+    max-width: 960px;
+  }
+}
+
+/* scroll css */
+body::-webkit-scrollbar {
+  width: 16px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $inactive-color;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+}
+body::-webkit-scrollbar-track {
+  background-color: none;
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 16px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: $inactive-color;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+}
+.scroll::-webkit-scrollbar-track {
+  background-color: none;
+  border-radius: 10px;
+}
