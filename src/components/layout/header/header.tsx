@@ -3,6 +3,7 @@ import { GlobeLinks } from '@/components/molecules';
 import React from 'react';
 import { HeaderSearch } from './headerSearch';
 import { HeaderUserInfo } from './headerUserInfo';
+import { Navigation } from './navigation';
 
 type HeaderProps = {
 	nowPgae?: string;
@@ -66,15 +67,16 @@ function CHeader({}: HeaderProps, ref: any) {
 						<HeaderSearch />
 					</div>
 					<div>
-						<HeaderUserInfo />
+						<HeaderUserInfo isLogin={false} />
 					</div>
 				</div>
-				<div className="header__bottom"></div>
+				<div className="header__bottom">
+					<Navigation />
+				</div>
 			</div>
 		</header>
 	);
 }
-
 const CHeaderRef = React.forwardRef(CHeader);
 export const Header = React.memo(CHeaderRef);
 Header.displayName = 'Header';

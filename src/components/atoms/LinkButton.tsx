@@ -4,7 +4,7 @@ type CLinkButtonProps = {
 	link?: string;
 	text?: React.ReactNode;
 	intent?: string;
-	size?: 's' | 'm' | 'b';
+	size?: 's' | 'm' | 'l';
 };
 
 function CLinkButton({
