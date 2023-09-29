@@ -1,2 +1,12 @@
 {
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			// "savePath": "~/src/styles/"
+			"savePath": "src/styles/"
+		}
+	],
+	"liveSassCompile.settings.includeItems": ["scss/**/*.scss"],
+	"liveSassCompile.settings.generateMap": false
 }

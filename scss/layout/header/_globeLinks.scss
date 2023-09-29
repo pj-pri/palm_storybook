@@ -1,0 +1,40 @@
+.globe-links {
+	position: relative;
+	padding: 10px;
+
+	&__button {
+		font-family: Noto Sans;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: -0.28px;
+		color: $grey;
+
+		display: block;
+		& > i {
+			color: $active-color;
+
+			width: 10px;
+			height: 5px;
+			top: -3px;
+			margin-left: 10px;
+		}
+	}
+
+	&__list {
+		display: none;
+		position: absolute;
+		background-color: $white;
+		z-index: 10;
+	}
+
+	&[data-active='true'] {
+		.globe-links__button > i {
+			transform: rotateZ(180deg);
+		}
+
+		.globe-links__list {
+			display: block;
+		}
+	}
+}

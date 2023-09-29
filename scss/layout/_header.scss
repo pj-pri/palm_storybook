@@ -1,0 +1,40 @@
+.header {
+	width: 100%;
+	height: 200px;
+
+	&__inner {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+
+		& > * {
+			display: flex;
+		}
+	}
+
+	&__mid {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.left {
+			display: flex;
+			align-items: center;
+
+			.header-logo {
+				margin-right: 30px;
+			}
+		}
+	}
+
+	&__bottom {
+	}
+}
+
+@import './header/index';
